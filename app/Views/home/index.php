@@ -24,9 +24,9 @@
                 <!--End::Logo-->
             </div>
             <div class="col p-3 pe-5 d-flex flex-row justify-content-end">
-                <div><a class="nav-link ms-5" href="<?= site_url('/') ?>">Início</a></div>
-                <div><a class="nav-link ms-5" href="<?= site_url('/') ?>">Produtos</a></div>
-                <div><a class="nav-link ms-5" href="<?= site_url('/') ?>">Sobre a Empresa</a></div>
+                <div><a class="nav-link ms-5" href="<?= site_url('Start') ?>">Início</a></div>
+                <div><a class="nav-link ms-5" href="<?= site_url('Products') ?>">Produtos</a></div>
+                <div><a class="nav-link ms-5" href="<?= site_url('About_the_Company') ?>">Sobre a Empresa</a></div>
             <div>
         </div>
     </nav>
