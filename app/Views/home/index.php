@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="<?= base_url('assets/bootstrap/bootstrap.min.css') ?>">
     <!--End::Bootstrap-->
     <!--Begin::CSS-->
-    <link rel="stylesheet"   href="<?= base_url('assets/css/app.css')?>">
+    <link rel="stylesheet" title="text/css"  href="<?= base_url('assets/css/home.css')?>">
+
     <!--End::CSS-->
 </head>
 <body>
