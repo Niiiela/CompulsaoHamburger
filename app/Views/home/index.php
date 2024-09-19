@@ -34,7 +34,20 @@
     <!--End::Navbar-->
     <!--Begin::Content-->
     <section class="container-fluid section-1">
-                
+        <div class="row">
+            <div class="col text-center p-5">
+                <div class="mb-5">
+                    <img class="img-fluid" src="<?= base_url('assets/img/Hamburger.gif')?>" alt="Hamburger" />
+                </div>
+            </div>
+            <div class="col text-center p-5">
+                <img class="img-fluid-1" src="<?= base_url('assets/img/PostPromoção.png')?>" alt="Post Promoção" />
+            </div>
+            <div class="text-center p-6">
+                    <h3 class="mb-2">Deliciosos Hambúrger</h3>
+                    <a class="btn-products" href="<? base_url('Products') ?>">Produtos</a>
+                </div>
+        </div>        
     </section>
     <!--End::Content-->
     <!--Begin::footer-->
@@ -42,7 +55,7 @@
         <div class="row justify-content-center">
             <div class="col-6 d-flex flex-row justify-content-center">
                 <div class="text-center mx-4">
-                    <a href="#"><img class="logo-flooter" src="<?= base_url('assets/img/facebook.png')?>" alt="Facebook"></a>
+                    <a href="#"><img class="logo-flooter" src="<?= base_url('assets/img/facebook.png') ?>" alt="Facebook"></a>
                 </div>
                 <div class="text-center mx-4">
                     <a href="#"><img class="logo-flooter" src="<?= base_url('assets/img/instagram.png')?>" alt="Instagram"></a>

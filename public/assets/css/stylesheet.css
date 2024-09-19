@@ -34,6 +34,11 @@ body
     width: 160px;
     border-radius: 15px;
 }
+.img-fluid-1
+{
+    width: 300px;
+    border-radius: 15px;
+}
 
 .btn-products
 {
@@ -51,8 +56,3 @@ body
     background: linear-gradient(to bottom, #fff6c3, #ffc96c);
 }
 
-.img-fluid-1
-{
-    width: 200px;
-    border-radius: 15px;
-}
