@@ -34,23 +34,7 @@
     <!--End::Navbar-->
     <!--Begin::Content-->
     <section class="container-fluid section-1">
-        <div class="row">
-            <div class="col text-center p-5">
-                <div class="mb-5">
-                    <img class="img-fluid" src="<?= base_url('assets/img/Hamburger.gif') ?>" alt="O melhor Hambúrger!" />
-                </div>
-                <div class="text-center">
-                    <h3 class="mb-5">Deliciosos e com grandes descontos!</h3>
-                    <a class="btn-products" href="<?= site_url('products') ?>">Produtos</a>
-                </div>
-            </div>
-            <div class="col box text-center p-5">
-                <h1>Hojeeee é diaaaa de promoção venha saborear o melhor hambúrguer da região!
-                </h1>                
-                <br>
-                <h3>Desconto de 20%.....</h3>
-            </div>
-        </div>
+                
     </section>
     <!--End::Content-->
     <!--Begin::footer-->

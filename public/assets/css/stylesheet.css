@@ -51,29 +51,8 @@ body
     background: linear-gradient(to bottom, #fff6c3, #ffc96c);
 }
 
-
-.box {
-    background-color: rgb(230, 136, 55);
-    text-align: center;
+.img-fluid-1
+{
     width: 200px;
-    height: 100px;
-    position: relative;
-    overflow: hidden;
-}
-.box::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 0;
-    border-radius: 50%;
-    border: 1px solid;
-    width: 200px;
-    height: 100px;
-    box-sizing: border-box;
-}
-.box span {
-    display: inline-block;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 100px;
+    border-radius: 15px;
 }
