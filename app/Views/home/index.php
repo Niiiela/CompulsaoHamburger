@@ -45,7 +45,7 @@
             </div>
             <div class="text-center p-5">
                     <h3 class="mb-3 ">Deliciosos Hambúrger</h3>
-                    <a class="btn-products" href="<? base_url('Products') ?>">Produtos</a>
+                    <a class="btn-products" href="<? base_url('products/index') ?>">Produtos</a>
                 </div>
         </div>        
     </section>
