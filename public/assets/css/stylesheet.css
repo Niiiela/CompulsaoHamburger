@@ -31,13 +31,14 @@ body
 
 .img-fluid
 {
-    width: 160px;
+    height: 340px;
     border-radius: 15px;
 }
+
 .img-fluid-1
 {
-    width: 300px;
-    border-radius: 15px;
+    width: 180px;
+    height: 120px;
 }
 
 .btn-products
@@ -56,3 +57,7 @@ body
     background: linear-gradient(to bottom, #fff6c3, #ffc96c);
 }
 
+.logo-flooter
+{
+    width: 40px;
+}

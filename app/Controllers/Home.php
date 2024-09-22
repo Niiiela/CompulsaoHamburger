@@ -12,4 +12,5 @@ class Home extends BaseController
         // index
         return view ('home/index');
     }
+
 }
