@@ -27,27 +27,14 @@
             <div class="col p-3 pe-5 d-flex flex-row justify-content-end">
                 <div><a class="nav-link ms-5" href="<?= site_url('/') ?>">Início</a></div>
                 <div><a class="nav-link ms-5" href="<?= site_url('products/index') ?>">Produtos</a></div>
-                <div><a class="nav-link ms-5" href="<?= site_url('About_the_Company/index') ?>">Sobre a Empresa</a></div>
+                <div><a class="nav-link ms-5" href="<?= site_url('About_the_Company') ?>">Sobre a Empresa</a></div>
             <div>
         </div>
     </nav>
     <!--End::Navbar-->
     <!--Begin::Content-->
     <section class="container-fluid section-1">
-        <div class="row">
-            <div class="col text-center p-5">
-                <div class="mb-5">
-                <img  class="img-fluid" src="<?= base_url('assets/img/Post_Promoção.png')?>" alt="Post Promoção" />
-                </div>
-            </div>
-            <div class="col text-center p-5">
-                <img class="img-fluid" src="<?= base_url('assets/img/hamburger-8597938_1280.png')?>" alt="Hambúrger" />
-            </div>
-            <div class="text-center p-5">
-                    <h3 class="mb-3 ">Deliciosos Hambúrger</h3>
-                    <a class="btn-products" href="<? base_url('products/index') ?>">Produtos</a>
-                </div>
-        </div>        
+               
     </section>
     <!--End::Content-->
     <!--Begin::footer-->
