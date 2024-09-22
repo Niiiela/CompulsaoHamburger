@@ -78,5 +78,10 @@ body
 
 .product-hamburguer-text
 {
-    font-size: 30px;
+    font-size: 25px;
+}
+
+.product-p
+{
+    text-align: justify;
 }

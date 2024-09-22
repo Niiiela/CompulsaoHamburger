@@ -46,26 +46,43 @@
             <div class="col text-center p-5">
                 <h1 class="mb-3 text-center product-hamburguer product-hamburguer-text">Hambúrger Duplo Bacon</h1>
                 <h5 class="mb-3 text-center product-hamburguer">Perfeição em cada mordida</h5>
-                <p class="mb-3">Dois suculentos hambúrgueres grelhados, acompanhados de bacon crocante e dourado, cobertos com queijo cheddar derretido que envolve tudo em uma textura cremosa. Enquanto a maionese artesanal e o pão brioche levemente tostado completam essa explosão de sabores. Um hambúrguer que une o melhor da carne, do bacon e dos temperos, criando uma experiência gastronômica irresistível.</p>
+                <p class="mb-3 product-p">Dois suculentos hambúrgueres grelhados, acompanhados de bacon crocante e dourado, cobertos com queijo cheddar derretido que envolve tudo em uma textura cremosa. Enquanto a maionese artesanal e o pão brioche levemente tostado completam essa explosão de sabores. Um hambúrguer que une o melhor da carne, do bacon e dos temperos, criando uma experiência gastronômica irresistível.</p>
                 <h2 class="mb-2 product-hamburguer">R$ 23,00</h2>
             </div>
         </div>
         <!-- End:: Hambúrger Duplo Bacon -->
-         <!--Begin::Hambúrger Duplo Salada-->
+        <!--Begin::Hambúrger Duplo Salada-->
         <div class="row product">
             <div class="col text-center p-5">
-                <div class="mb-5">
-                <h1 class="mb-3 text-center">Hambúrger Duplo Bacon</h1>
-                <h5 class="mb-3 text-center">Perfeição em cada mordida</h5>
-                <p class="mb-3">Dois suculentos hambúrgueres grelhados, acompanhados de bacon crocante e dourado, cobertos com queijo cheddar derretido que envolve tudo em uma textura cremosa. Vegetais frescos como alface crocante e tomate maduro trazem equilíbrio e frescor, enquanto a maionese artesanal e o pão brioche levemente tostado completam essa explosão de sabores. Um hambúrguer que une o melhor da carne, do bacon e dos temperos, criando uma experiência gastronômica irresistível.</p>
-                <h2 class="mb-2 ">R$ 25,00</h2>
+                <div class="col text-center p-5">
+                    <h1 class="mb-3 text-center product-hamburguer product-hamburguer-text">Hambúrger Duplo Salada</h1>  
+                    <h5 class="mb-3 text-center product-hamburguer">Perfeição em cada mordida</h5>
+                    <p class="mb-3 product-p">Dois suculentos hambúrgueres grelhados, acompanhados de bacon crocante e dourado, cobertos com queijo cheddar derretido que envolve tudo em uma textura cremosa. Vegetais frescos como alface crocante e tomate maduro trazem equilíbrio e frescor, enquanto a maionese artesanal e o pão brioche levemente tostado completam essa explosão de sabores. Um hambúrguer que une o melhor da carne, do bacon e dos temperos, criando uma experiência gastronômica irresistível.</p>
+                    <h2 class="mb-2 product-hamburguer">R$ 25,00</h2>
                 </div>
             </div>
             <div class="col text-center p-5">
-            <img class="img-fluid" src="<?= base_url('assets/img/Duplosalada.png') ?>" alt="Hambúrger Duplo Salada" />
+                <div class="mb-5">
+                <img class="img-fluid" src="<?= base_url('assets/img/Duplosalada.png') ?>" alt="Hambúrger Duplo Salada" />
+                </div>
             </div>
         </div>
-        <!-- End::Hambúrger Duplo Salada -->
+        <!--End::Hambúrger Duplo Salada-->
+        <!--Begin::Hambúrger Simples Bacon-->
+        <div class="row product">
+            <div class="col text-center p-5">
+                <div class="mb-5">
+                    <img class="img-fluid" src="<?= base_url('assets/img/SimpleBacon.png') ?>" alt="Hambúrger Duplo Bacon" />
+                </div>
+            </div>
+            <div class="col text-center p-5">
+                <h1 class="mb-3 text-center product-hamburguer product-hamburguer-text">Hambúrguer Simples Bacon</h1>
+                <h5 class="mb-3 text-center product-hamburguer">Perfeição em cada mordida</h5>
+                <p class="mb-3 product-p">Dois suculentos hambúrgueres grelhados, acompanhados de bacon crocante e dourado, cobertos com queijo cheddar derretido que envolve tudo em uma textura cremosa. Enquanto a maionese artesanal e o pão brioche levemente tostado completam essa explosão de sabores. Um hambúrguer que une o melhor da carne, do bacon e dos temperos, criando uma experiência gastronômica irresistível.</p>
+                <h2 class="mb-2 product-hamburguer">R$ 23,00</h2>
+            </div>
+        </div>
+        <!-- End:: Hambúrger Duplo Bacon -->
         <!-- End Hambúrger principal -->
     </section>
     <!--End::Content-->
