@@ -33,12 +33,13 @@
                 <div>
                 </div>
     </nav>
+    <br>
     <!--End::Navbar-->
     <!--Begin::Content-->
-    <section class="container-fluid section-1 py-5">
+    <section class="container section-1 py-5">
         <div class="row">
             <div class="col-5 text-center">
-                <a href="#"><img class="restaurant" src="<?= base_url('assets/img/restaurant.jpg') ?>" alt="Hamburgueria"></a>
+                <a href="#"><img class="restaurant" src="<?= base_url('assets/img/room.webp') ?>" alt="Hamburgueria"></a>
             </div>
             <div class="col-6">
                 <p class="rest-sob mb-8"> Compulsão de Hamburguer Brasil</p>
@@ -70,7 +71,17 @@
                 </div>
         </div>
     </section>
+    <br>
     <!--End::Content-->
+    <!--Begin::Map-->
+    <section class="container section-1 py-5">
+        <div class="row">
+            <div class="col text-center">
+                <img src="<?= base_url('assets/img/map.jpg')?>" alt="" />
+            </div>
+        </div>
+    </section>
+    <!--End::Map-->
     <!--Begin::footer-->
     <footer class="container-fluid mt-5">
         <div class="row justify-content-center">
