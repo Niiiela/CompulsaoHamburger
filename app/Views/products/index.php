@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="autor" content="Dani Vieira">
     <meta name="description" content="Uma representação do site Compulsão de Hamburguer desenvolvido em HTML, CSS">
-    <title>Compulsão de Hamburguer</title>
+    <title><?=$Title?></title>
     <!--Begin::Bootstrap-->
     <link rel="stylesheet" href="<?= base_url('assets/bootstrap/bootstrap.min.css') ?>">
     <!--End::Bootstrap-->
@@ -40,7 +40,7 @@
         <div class="row product">
             <div class="col text-center p-5">
                 <div class="mb-5">
-                    <img class="img-fluid" src="<?= base_url('assets/img/DuploBacon.png') ?>" alt="Hambúrger Duplo Bacon" />
+                    <img class="img-fluid" src="<?= base_url('assets/img/menu/DuploBacon.png') ?>" alt="Hambúrger Duplo Bacon" />
                 </div>
             </div>
             <div class="col text-center p-5">
@@ -63,7 +63,7 @@
             </div>
             <div class="col text-center p-5">
                 <div class="mb-5">
-                <img class="img-fluid" src="<?= base_url('assets/img/Duplosalada.png') ?>" alt="Hambúrger Duplo Salada" />
+                <img class="img-fluid" src="<?= base_url('assets/img/menu/Duplosalada.png') ?>" alt="Hambúrger Duplo Salada" />
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
         <div class="row product">
             <div class="col text-center p-5">
                 <div class="mb-5">
-                    <img class="img-fluid" src="<?= base_url('assets/img/SimpleBacon.png') ?>" alt="Hambúrger Duplo Bacon" />
+                    <img class="img-fluid" src="<?= base_url('assets/img/menu/SimpleBacon.png') ?>" alt="Hambúrger Duplo Bacon" />
                 </div>
             </div>
             <div class="col text-center p-5">
@@ -95,7 +95,7 @@
             </div>
             <div class="col text-center p-5">
                 <div class="mb-5">
-                <img class="img-fluid" src="<?= base_url('assets/img/burger-1.png') ?>" alt="Hambúrger Duplo Salada" />
+                <img class="img-fluid" src="<?= base_url('assets/img/menu/burger-1.png') ?>" alt="Hambúrger Duplo Salada" />
                 </div>
             </div>
         </div>

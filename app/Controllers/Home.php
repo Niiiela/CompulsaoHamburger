@@ -9,8 +9,12 @@ class Home extends BaseController
 {
     public function index()
     {
+        $data = [
+            'Title' => 'Compulsão de Hamburguer'
+        ];
+
         // index
-        return view ('home/index');
+        return view ('home/index', $data);
     }
 
 }

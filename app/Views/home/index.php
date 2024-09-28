@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="autor" content="Dani Vieira">
     <meta name="description" content="Uma representação do site Compulsão de Hamburguer desenvolvido em HTML, CSS">
-    <title>Compulsão de Hamburguer</title>
+    <title><?=$Title?></title>
     <!--Begin::Bootstrap-->
     <link rel="stylesheet" href="<?= base_url('assets/bootstrap/bootstrap.min.css') ?>">
     <!--End::Bootstrap-->
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="col text-center p-5">
-                <img class="img-fluid" src="<?= base_url('assets/img/hamburger-8597938_1280.png')?>" alt="Hambúrger" />
+                <img class="img-fluid" src="<?= base_url('assets/img/menu/hamburger.png')?>" alt="Hambúrger" />
             </div>
             <div class="text-center p-5">
                     <h3 class="mb-3 ">Deliciosos Hambúrger</h3>

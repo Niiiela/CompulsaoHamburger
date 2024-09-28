@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="autor" content="Dani Vieira">
     <meta name="description" content="Uma representação do site Compulsão de Hamburguer desenvolvido em HTML, CSS">
-    <title>Compulsão de Hamburguer</title>
+    <title><?=$Title?></title>
     <!--Begin::Bootstrap-->
     <link rel="stylesheet" href="<?= base_url('assets/bootstrap/bootstrap.min.css') ?>">
     <!--End::Bootstrap-->
