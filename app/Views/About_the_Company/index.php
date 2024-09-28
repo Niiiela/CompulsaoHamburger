@@ -33,8 +33,12 @@
     </nav>
     <!--End::Navbar-->
     <!--Begin::Content-->
-    <section class="container-fluid section-1">
-               
+    <section class="container-fluid section-1 py-5">
+        <div class="row">
+            <div class="col-5 text-center">
+                <a href="#"><img class="restaurant" src="<?= base_url('assets/img/restaurant.jpg') ?>" alt="Hamburgueria"></a>    
+            </div>
+        </div>          
     </section>
     <!--End::Content-->
     <!--Begin::footer-->

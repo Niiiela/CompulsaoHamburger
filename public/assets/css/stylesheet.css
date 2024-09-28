@@ -85,3 +85,9 @@ body
 {
     text-align: justify;
 }
+
+.restaurant
+{
+    height: 340px;
+    border-radius: 15px;
+}
