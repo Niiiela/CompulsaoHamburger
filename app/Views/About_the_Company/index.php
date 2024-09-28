@@ -57,6 +57,15 @@
                     Venha saciar a sua compulsão por sabor e descubra porque somos a parada obrigatória para os apaixonados por hambúrguer!</p>
                     <div class="d-flex align-items-center mb-3">
                         <img src=<?= base_url ('assets/img/icon_phone.png')?> alt="Phonne" />
+                        <p class="rest-sobt ms-3">
+                            <a class="nav-link" href="tel:+34540954"> 86 3454-0954</a>
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <img src=<?= base_url ('assets/img/icon_email.png')?> alt="Email" />
+                        <p class="rest-sobt ms-3">
+                            <a class="nav-link" href="CompulsãoHamburguer@gmail.com">CompulsãoHamburguer@gmail.com</a>
+                        </p>
                     </div>
                 </div>
         </div>
